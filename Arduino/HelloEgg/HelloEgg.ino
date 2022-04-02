@@ -30,7 +30,7 @@ void loop() {
      //myLedEgg.LEDarray[0] = brightness;
      for (uint8_t i = 0;i<NUM_LED; i++)
      {
-       myLedEgg.LEDarray[i] = (brightness = brightness + 5)/3;
+       myLedEgg.LEDarray[i] = (brightness = brightness + 5)/2;
        if (brightness > 128)
          brightness = brightness - 128;
      }
