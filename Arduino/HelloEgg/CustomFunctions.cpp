@@ -1,11 +1,5 @@
 #include "CustomFunctions.h"
 
-
-bool knopfGedrueckt()
-{
-	íf(digital)
-}
-
 Ei::Ei(LedEgg egg)
 {
 	this->egg = egg;
